@@ -1,1 +1,5 @@
-console.log('hello');
+import * as CommentCanvas from './lib/CommentCanvasRenderer';
+
+export {
+  CommentCanvas
+}

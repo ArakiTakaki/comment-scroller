@@ -6,7 +6,7 @@
   "author": "ArakiTakaki <araki_takaki@yahoo.co.jp>",
   "license": "MIT",
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf lib",
     "build": "rollup -c rollup.config.js"
   },
   "devDependencies": {
